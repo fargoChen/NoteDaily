@@ -1,0 +1,5 @@
+# run command appointed times 
+mycount=0; while (( $mycount < 10 )); do echo "mycount=$mycount"; ((mycount=$mycount+1)); done;
+
+# add words to former file
+echo 123 >> test
